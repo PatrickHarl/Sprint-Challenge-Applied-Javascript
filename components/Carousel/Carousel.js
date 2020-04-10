@@ -53,9 +53,12 @@ function createCarousel(){
       {
 
         imageFour.id = 'current'
-        imageOne.removeAttribute('id')
-        imageFour.style.display = 'inline-block'
+        imageOne.removeAttribute('id')          
         imageOne.style.display = 'none'
+        imageFour.style.display = 'inline-block'
+     
+       
+        
 
       }
       else if(imageTwo.id === 'current')
